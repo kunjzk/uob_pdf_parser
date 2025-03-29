@@ -1,3 +1,5 @@
 import tabula
 
-tabula.read_pdf("../pdfs/acc_oct_24.pdf", pages="all")
+res = tabula.read_pdf("../pdfs/acc_oct_24.pdf", pages="all")
+
+print(res)
