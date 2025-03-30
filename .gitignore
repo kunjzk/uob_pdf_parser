@@ -1,3 +1,5 @@
 pdfs/
 .DS_Store
 py/venv/*
+py/test.ipynb
+py/.ipynb_checkpoints/*
