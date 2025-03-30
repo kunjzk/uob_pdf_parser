@@ -1,0 +1,6 @@
+black
+dash==2.14.2
+numpy
+pandas==2.2.3
+camelot-py[base]
+plotly==5.19.0
