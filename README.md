@@ -45,3 +45,7 @@ There are 4 environments to worry about
 
 3. Camelot: https://camelot-py.readthedocs.io/en/latest/user/intro.html
    Review: excellent. Didn't work initially due to a mixup of python environments, and then because its default scanning method wasn't working. Had to adjust the table detection algorithm (flavor parameter to camelot.read_pdf). Once I changed to stream processing and explicitly supplying pages, this algo was able to parse my PDF far better than tabula. The structure of the table was visually replicated in the dataframe. Some reshuffling of indices and additional procesing is required to clean the DF up, but this is an easy problem.
+
+
+### Potential imporovements:
+https://www.linkedin.com/posts/voltade_ai-reactquery-mantine-activity-7314831413806092289-VtJf?utm_source=share&utm_medium=member_desktop&rcm=ACoAACObIkcB5FohXfgpWqfD9FAzfiwzF1raI3c
